@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background:url('back.jpg') no-repeat center center/cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  background: #111;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #0077ff;
+  box-shadow: 0 0 15px rgba(0, 38, 255, 0.535);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.header h2 {
+  margin: 0;
+  color: #FF6A00;
+  font-size: 24px;
+}
+
+.header p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.input-box {
+  margin: 12px 0;
+  position: relative;
+}
+
+.input-box input {
+  width: 90%;
+  padding: 12px 10px 12px 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+}
+
+.input-box .icon {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  color: #FF6A00;
+  font-size: 18px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #FF6A00;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px #FF6A00;
+  transform: scale(1.03);
+}
+
+.switch {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.switch span {
+  color: #FF6A00;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mascot {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.mascot1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.mascot img {
+  width: 90px;
+}
+
+.mascot1 img {
+  width :160px;
+}
